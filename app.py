@@ -47,7 +47,7 @@ server = app.server
 app.title=tabtitle
 
 ########### Set up the layout
-app.layout = html.Div(children=[
+app.layout = html.Div(style={'backgroundColor': '#111111'}, children=[
     html.H1(myheading),
     dcc.Graph(
         id='flyingdog',
